@@ -199,12 +199,12 @@ export default function NavBar(props) {
       <AppBar  style={{ background: 'white' }} className="navbar">
         <Toolbar className={classes.navbar} id="back-to-top-anchor">
         <div className="logo">
-          <Link to="/" className="link"><Typography variant="h6">Logo</Typography></Link>
+          <Link to="/" className="link"><Typography variant="h6">CÄBIN</Typography></Link>
         </div>
          
           <div className={classes.sections}>
           <Typography className={classes.sect} variant="body1" ><Link to="/rentals" className="link">Rentals</Link></Typography>
-          <Typography className={classes.sect} variant="body1"><Link to="/properties" className="link">Private Properties</Link></Typography>
+          <Typography className={classes.sect} variant="body1"><Link to="/experience" className="link">Experience</Link></Typography>
           <Typography className={classes.sect} variant="body1"><Link to="/about" className="link">About</Link></Typography>
           <Button className={classes.contactbtn} className="contactbtn" variant="contained"><Link to="/contact" className="link">Contact</Link></Button>
           <MenuIcon className="mobmenu" onClick={handleClick}></MenuIcon>

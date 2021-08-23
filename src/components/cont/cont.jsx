@@ -9,8 +9,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 //import {InfoData} from "../../data/infoData";
-import HomeImg from '../../assets/bas-van-den-eijkhof-uLIalTHWgZ8-unsplash.jpg';
-import DesignImg from '../../assets/sonnie-hiles-L0BaowhFe4c-unsplash.jpg';
+import HomeImg from '../../assets/kristin-ellis-qHlUwZLS5F4-unsplash.jpg';
+import DesignImg from '../../assets/kalen-emsley-Mn7GEjKA7HM-unsplash.jpg';
 
 
 
@@ -50,7 +50,7 @@ export default function  Cont({reverse}){
           
                 <div className="sect">
                     <ColLeft className="col-left">
-                        <h1 className="heading">Expore our beautiful homes</h1>
+                        <h1 className="heading">Expore our beautiful cabins</h1>
                         <p className="paragraph">Some of the properties that we represent require special access and are only visible to our Private Office network and registered visitors.</p>
                         <p className="paragraph">If you would like to view details on these Network Private listings, please register using the link below</p>
                         <Button primary="true"><Link to="/properties">View Home</Link></Button>
@@ -77,7 +77,7 @@ export default function  Cont({reverse}){
             <br></br><br></br><br></br><br></br><br></br>
             <footer className={classes.footer}>
                 <Container maxWidth="sm">
-                <Typography variant="body1" align="center">HÖME 2021</Typography>
+                <Typography variant="body1" align="center">CÄBIN 2021</Typography>
                 </Container>
             </footer>
         </section>

@@ -75,6 +75,7 @@
 }
 
 .section .cont .sect .col-right .img {
+  margin-top: 60px;
   width: 60%;
   height: 100%;
   -o-object-fit: cover;

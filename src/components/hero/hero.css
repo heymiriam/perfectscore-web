@@ -37,8 +37,6 @@
   left: 0;
   overflow: hidden;
   opacity: 0.5;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), color-stop(50%, rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.5)));
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .hero .wrapper .heroslider .heroslide {

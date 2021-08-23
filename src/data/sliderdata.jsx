@@ -1,37 +1,37 @@
-import ImgOne from '../assets/daniel-barnes-PyFzygP2eNg-unsplash.jpg';
-import ImgTwo from '../assets/john-fornander-tVzyDSV84w8-unsplash.jpg';
-import ImgThree from '../assets/random-institute-B99TTVAdkHQ-unsplash.jpg';
-import ImgFour from '../assets/stephen-leonardi-XKIO6ZgCObo-unsplash.jpg';
+import ImgOne from '../assets/photo-1587061949409-02df41d5e562.jpeg';
+import ImgTwo from '../assets/photo-1573812331441-d99117496acb.jpeg';
+import ImgThree from '../assets/luca-bravo-zAjdgNXsMeg-unsplash.jpeg';
+import ImgFour from '../assets/photo-1568707126892-99e6470ce9bf.jpeg';
 
 
 
 export const SliderData =[
     {
-        title:"Luxury Vila",
+        title:"Cabin Robson",
         price:"$4,000,100",
         path:"/properties",
         label:"View Home",
         img: ImgOne,
-        alt:"Luxury House",
+        alt:"Cabin Robson",
     },
     {
-        title:"Luxury Vila",
+        title:"Cabin Baker",
         price:"$4,000,100",
         path:"/properties",
         label:"View Home",
         img: ImgTwo,
-        alt:"Luxury House",
+        alt:"Cabin Baker",
     },
     {
-        title:"Luxury Vila",
+        title:"Cabin Louise",
         price:"$4,000,100",
         path:"/properties",
         label:"View Home",
         img: ImgThree,
-        alt:"Luxury House",
+        alt:"Cabin Louise",
     },
     {
-        title:"Luxury Vila",
+        title:"Cabin Alexandre",
         price:"$4,000,100",
         path:"/properties",
         label:"View Home",
