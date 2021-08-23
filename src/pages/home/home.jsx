@@ -4,17 +4,18 @@ import {SliderData} from "../../data/sliderdata";
 import Hero from "../../components/hero/hero";
 //import MobileNav from "../../components/mobilenav/mobilenav";
 import Cont from "../../components/cont/cont";
+import {InfoData} from "../../data/infoData";
 
 export default function Home(){
     const [open, setOpen]=useState(false);
     const tog =()=>{
         setOpen(!open)
-    }
+    };
     return(
         <div>
             <NavBar />      
             <Hero slides={SliderData}/>
-            <Cont />
+            <Cont {...InfoData}/>
         </div>
     )
 }

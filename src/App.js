@@ -8,7 +8,9 @@ import NavBar from "./components/navbar/navbar";
 function App() {
   return (
     < >
+    <link rel="preload" as="font"></link>
     <Router>
+      
         <NavBar />
         <Route exact path="/"><Home /></Route>
       </Router>

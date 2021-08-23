@@ -53,13 +53,13 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-between',
     alignItems: 'center',
     textDecoration: 'none',
-    color:"black",
+    //color:"black",
     
   },
   sect:{
     marginRight: theme.spacing(6),
     textDecoration: 'none',
-    color:"black",
+    //color:"black",
     ["@media (max-width:768px)"]:{
       display:"none",
     },
@@ -68,7 +68,7 @@ const useStyles = makeStyles((theme) => ({
     cursor:"pointer",
     transition:"5s",
     textDecoration:"none",
-    color:"black",
+    //color:"black",
     
     ["@media (max-width:768px)"]:{
       display:"none",
@@ -196,7 +196,7 @@ export default function NavBar(props) {
     < >
       <CssBaseline />
       <HideOnScroll {...props}>
-      <AppBar color="black" className="navbar">
+      <AppBar  style={{ background: 'white' }} className="navbar">
         <Toolbar className={classes.navbar} id="back-to-top-anchor">
         <div className="logo">
           <Link to="/" className="link"><Typography variant="h6">Logo</Typography></Link>
@@ -206,13 +206,12 @@ export default function NavBar(props) {
           <Typography className={classes.sect} variant="body1" ><Link to="/rentals" className="link">Rentals</Link></Typography>
           <Typography className={classes.sect} variant="body1"><Link to="/properties" className="link">Private Properties</Link></Typography>
           <Typography className={classes.sect} variant="body1"><Link to="/about" className="link">About</Link></Typography>
-
-          <Button color="primary" variant="outlined" className={classes.contactbtn} className="contactbtn"><Link to="/contact" className="link">Contact</Link></Button>
+          <Button className={classes.contactbtn} className="contactbtn" variant="contained"><Link to="/contact" className="link">Contact</Link></Button>
           <MenuIcon className="mobmenu" onClick={handleClick}></MenuIcon>
           
           <Menu 
           className="mobnav" 
-          clasName={classes.mobnav} 
+          className={classes.mobnav} 
           id="simple-menu"
           anchorEl={anchorEl}
           keepMounted
@@ -225,8 +224,7 @@ export default function NavBar(props) {
                     <Typography className={classes.mobsect} className="mobsect" variant="h6" ><Link to="/rentals" className="moblink">Rentals</Link></Typography>
                     <Typography className={classes.mobsect} className="mobsect" variant="h6"><Link to="/properties" className="moblink">Private Properties</Link></Typography>
                     <Typography className={classes.mobsect} className="mobsect" variant="h6"><Link to="/about" className="moblink">About</Link></Typography>
-
-                    <Button color="black" variant="outlined"  size="large" className={classes.mobcontactbtn} className="mobcontactbtn" style={{color:"white"}} variant="contained" align="center"><Link to="/contact" className="link">Contact</Link></Button>
+                    <Button color="primary" className={classes.mobcontactbtn} className="mobcontactbtn"style={{color:"white"}} ><Link to="/contact" className="link">Contact</Link></Button>
                     
                 </div>
             </div>

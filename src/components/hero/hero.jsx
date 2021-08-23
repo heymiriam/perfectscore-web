@@ -9,7 +9,11 @@ import ImgFour from '../../assets/stephen-leonardi-XKIO6ZgCObo-unsplash.jpg';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import IconButton from '@material-ui/core/IconButton';
-
+ 
+/*<div className="slidebtn">
+               <IconButton className="arrowbtn arrowback" onClick={prev}><ArrowBackIcon fontSize="large" /></IconButton>
+               <IconButton className="arrowbtn" onClick={next}><ArrowForwardIcon fontSize="large" /></IconButton>
+               </div> */
 
 const Hero=()=>{
     const [current,setCurrent]=useState(0);
@@ -22,7 +26,7 @@ const Hero=()=>{
         }
         timeout.current =setTimeout(next, 3000)
         return function(){
-            clearTimeout(timeout.current)
+            clearTimeout(timeout)
         }
     },[current], slidelength)
     const next=()=>{
@@ -52,10 +56,7 @@ const Hero=()=>{
                    </div>
                    );
                })}
-               <div className="slidebtn">
-               <IconButton className="arrowbtn arrowback" onClick={prev}><ArrowBackIcon fontSize="large" /></IconButton>
-               <IconButton className="arrowbtn" onClick={next}><ArrowForwardIcon fontSize="large" /></IconButton>
-               </div>
+               
                
             </div>
         </div>
