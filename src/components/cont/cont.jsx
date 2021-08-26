@@ -64,6 +64,7 @@ export default function  Cont({reverse}){
                <ColRight className="col-right" reverse={reverse}>
                <img className="img"  src={DesignImage} alt="home" />
                 </ColRight>
+                <br></br><br></br><br></br><br></br>
                 <ColLeft className="col-left">
                     <h1 className="heading">Modern Designs</h1>
                     <p className="paragraph">Some of the properties that we represent require special access and are only visible to our Private Office network and registered visitors.</p>
