@@ -4,7 +4,7 @@ import {SliderData} from "../../data/sliderdata";
 import Hero from "../../components/hero/hero";
 //import MobileNav from "../../components/mobilenav/mobilenav";
 import Cont from "../../components/cont/cont";
-import {InfoData} from "../../data/infoData";
+//import {InfoData} from "../../data/infoData";
 
 export default function Home(){
     const [open, setOpen]=useState(false);
@@ -15,7 +15,7 @@ export default function Home(){
         <div>
             <NavBar />      
             <Hero slides={SliderData}/>
-            <Cont {...InfoData}/>
+            <Cont />
         </div>
     )
 }

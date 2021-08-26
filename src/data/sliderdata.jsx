@@ -1,4 +1,4 @@
-import ImgOne from '../assets/photo-1587061949409-02df41d5e562.jpeg';
+import ImgOne from '../assets/photo-1587061949409-02df41d5e562.jpf';
 import ImgTwo from '../assets/photo-1573812331441-d99117496acb.jpeg';
 import ImgThree from '../assets/luca-bravo-zAjdgNXsMeg-unsplash.jpeg';
 import ImgFour from '../assets/photo-1568707126892-99e6470ce9bf.jpeg';

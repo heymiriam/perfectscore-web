@@ -8,10 +8,9 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
+import HomeImage from '../../assets/pic1.jpg';
+import DesignImage from '../../assets/kalen-emsley-Mn7GEjKA7HM-unsplash.jpg';
 //import {InfoData} from "../../data/infoData";
-import HomeImg from '../../assets/kristin-ellis-qHlUwZLS5F4-unsplash.jpg';
-import DesignImg from '../../assets/kalen-emsley-Mn7GEjKA7HM-unsplash.jpg';
-
 
 
 const useStyles = makeStyles((theme) => ({
@@ -56,14 +55,14 @@ export default function  Cont({reverse}){
                         <Button primary="true"><Link to="/properties">View Home</Link></Button>
                     </ColLeft>
                     <ColRight className="col-right" reverse={reverse}>
-                        <img className="img"  src={HomeImg} alt="home" />
+                        <img className="img"  src={HomeImage} alt="home" />
                     </ColRight>
                 </div>
            
                 <div className="shape"></div>
                <div className="sect">
                <ColRight className="col-right" reverse={reverse}>
-                    <img className="img"  src={DesignImg} alt="home" />
+               <img className="img"  src={DesignImage} alt="home" />
                 </ColRight>
                 <ColLeft className="col-left">
                     <h1 className="heading">Modern Designs</h1>
